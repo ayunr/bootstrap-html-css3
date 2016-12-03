@@ -1,0 +1,109 @@
+/*二维码显示*/
+#showMenu{
+	position: relative;
+}
+#showMenu >img{
+	position: absolute;
+	top: 54px;
+	right: -36px;
+	z-index:99;
+	border: 2px solid #000000;
+	display: none;
+}
+/*顶栏样式*/
+#showMenu>ul>li>a{
+	color: #FFFFFF;
+}
+#showMenu>ul>li>a:hover{
+	color: #2e8ece;
+	text-decoration:underline;
+	cursor: pointer;
+}
+/*第二栏样式*/
+.navbar-brand >i,.navbar-brand>span{
+	font-size: 26px;
+	color: #FFFFFF;
+}
+#navtitle{
+	margin-bottom: 10px;
+}
+nav ul.navbar-nav li{
+	height:80px;
+	width: 102px;
+	text-align: center;
+}
+nav ul.navbar-nav li:hover{
+	background:rgba(0,0,0,0.02);
+	cursor: pointer;
+}
+nav ul.navbar-nav a{
+	font-size: 16px;
+	line-height: 50px;
+}
+/*nav ul.navbar-nav li:hover >a{
+	color: #337ab7;
+}*/
+.el-feature{
+	margin-top: 22px;
+	display: flex;
+}
+.el-feature dl{
+	width: 33%;
+	float: left;
+	background: pink;
+	flex: 1;
+}
+.el-feature dl.el-feature-item01{
+	background: url(../imgs/feature01.png) no-repeat;
+}
+.el-feature dl.el-feature-item02{
+	background: url(../imgs/feature02.png) no-repeat;
+}
+.el-feature dl.el-feature-item03{
+	background: url(../imgs/feature03.png) no-repeat;
+}
+.el-feature dl> dt{
+	font-size: 18px;
+	margin-bottom: 8px;
+	margin-left: 80px;
+}
+.el-feature dl>dd{
+	color: #999;
+	margin-left: 80px;
+}
+.panel-title .pull-left{
+	color: #2e8ece;
+	font-size: 24px;
+    font-weight: bolder;
+    border-bottom: 3px solid #2e8ece;
+}
+.el-table th{
+	color: #999999;
+}
+ .el-table td{
+	font-size: 16px;
+}
+.el-panel .panel-title {
+    font-size: 24px;
+    color: #2e8ece;
+    font-weight: bold;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 10px 0px 16px;
+}
+.el-new-list >ul{
+	list-style: none;
+	padding: 0;
+}
+.el-new-list>ul>li{
+    list-style-type: none;
+    line-height: 38px;
+    font-size: 14px;
+}
+.el-new-list>ul>li>a{
+	color:#555;
+}
+.el-new-list>ul>li>a:hover{
+	color: #2e8ece;
+	cursor: pointer;
+}
