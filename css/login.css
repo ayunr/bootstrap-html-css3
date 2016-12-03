@@ -1,0 +1,17 @@
+.el-login-form{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+}
+.col-sm-10 .form-control{
+	display: block;
+	width: 222px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

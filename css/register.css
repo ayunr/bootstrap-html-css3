@@ -1,0 +1,13 @@
+
+#second_nav{
+	height: 74px;
+	line-height: 74px;
+	margin-bottom:6px;
+}
+
+.el-page-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #337ab7;
+}
