@@ -1,0 +1,14 @@
+
+/*右边顶栏背景色*/
+.col-sm-9 .real_auth_title{
+	background: #f5f5f5;
+	padding: 10px 14px;
+}
+.col-sm-9 .panel-body{
+	padding-top: 0;
+}
+.col-sm-9 .panel-body>p{
+	color: #a94442;
+	text-align: center;
+	padding: 0;
+}

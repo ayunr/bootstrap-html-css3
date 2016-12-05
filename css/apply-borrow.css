@@ -1,0 +1,54 @@
+
+.col-sm-9{
+	padding: 0 14px;
+}
+.col-sm-9 .right_title{
+	border-left: 2px solid #0099DD;
+	padding: 22px 14px;
+	background: rgba(33,159,211,0.04);
+}
+.col-sm-9 .right_title>h3{
+	color: #09d;	
+}
+.col-sm-9 .right_title>span{
+	color:  #31708f;
+}
+.col-sm-9 .right_title b{
+	color: #a94442;
+	font-weight: normal;
+}
+.col-sm-9 .borrowmsg{
+	margin: 30px 0;
+	border-bottom: 1px solid #ccc;
+	font-size: 22px;
+}
+.col-sm-9 .borrowmsg strong{
+	color: #FFF;
+	font-size: 17px;
+	padding: 4px 10px;
+	background-color: #337ab7;
+	border-radius:4px;
+}
+.col-sm-9 .form-inline{
+	margin-left: 14%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.col-sm-9 .form-inline select.form-control{
+	min-width:178px;
+}
+.col-sm-9 .form-inline .form-group{
+	min-width:70%;
+	flex: 1;
+	margin: 8px 0;
+}
+.col-sm-9 .form-inline .input-group{
+	margin-left: 8px;
+}
+.col-sm-9 #borrowtitle,textarea{
+	min-width: 300px;
+}
+.col-sm-9 textarea{
+	height: 60px;
+}

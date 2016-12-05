@@ -1,0 +1,75 @@
+
+/*右侧内容*/
+.col-sm-9 .panel-default{
+	/*padding: 0 20px;*/
+}
+.col-sm-9 img{
+	width: 72px;
+	height: 72px;
+}
+.col-sm-9 .el-head-img{
+	border: 1px solid #ccc;
+	padding: 8px;
+}
+.col-sm-9 .el-head{
+	margin-left: 20px;
+	font-size: 14px;
+}
+.col-sm-9  .money{
+	border-top: 1px solid #CCCCCC;
+	margin: 0 auto;
+	font-size: 18px;
+	margin: 8px 14px;
+	padding: 8px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.col-sm-9 span{
+	margin:0 10px ;
+	float: left;
+	flex: 1;
+}
+.col-sm-9 b{
+	font-weight: normal;
+	color: #337ab7;;
+}
+	/*两个按钮*/
+.col-sm-9 .btn-groups{
+	margin: 30px 0;
+	text-align: center;
+}
+.col-sm-9 .btn-groups .btn{
+	padding: 0;
+	width: 106px;
+	height: 44px;	
+	font-size: 18px;
+	line-height: 44px;
+}
+	/*认证大盒子*/
+.col-sm-9 .renzhengbox{
+	padding: 0 14px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 12px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}	
+.col-sm-9 .renzheng{
+	min-width: 33%;
+	flex: 1;
+	margin-bottom: 60px;
+}
+.col-sm-9 .renzheng>img{
+	width: 55px;
+	height: 45px;
+	float: left;
+	display: block;
+}
+.col-sm-9 .renzheng >div{
+	float: left;
+}
+.col-sm-9 .renzheng>p{
+	
+}

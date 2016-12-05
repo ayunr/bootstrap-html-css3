@@ -1,0 +1,66 @@
+
+/*第二栏样式*/
+#container .el-page-title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 14px;
+    color: #337ab7;
+    line-height: 72px;
+   padding-top: 20px;
+}
+.navbar-header {
+    float: left;
+    height: 74px;
+}	/*二栏高度图标右边文字样式设计*/
+
+.navbar-brand >i,.navbar-brand>span{
+	font-size: 26px;
+	color: #FFFFFF;
+}
+#navtitle{
+	margin-bottom: 10px;
+}
+#navtitle #logo{
+	margin-top: 8px;
+}
+nav ul.navbar-nav li{
+	height:80px;
+	min-width: 102px;
+	text-align: center;
+}
+nav ul.navbar-nav li:hover{
+	background:rgba(0,0,0,0.03);
+	cursor: pointer;
+}
+nav ul.navbar-nav a{
+	font-size: 16px;
+	line-height: 50px;
+} 
+
+/*表格信息*/
+.row .deal{
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+.row .deal .form-control{
+	margin: 6px 0;
+}
+.row  #borrowtitle,textarea{
+	min-width: 330px;
+	border:1px solid #ccc;
+	margin: 10px 0;
+}
+.row .deal tr>td:nth-child(1){
+	text-align: right;
+	padding-right: 20px;
+	font-weight: bolder;
+}
+
+/*网页尾部*/
+#footer{
+	background-color:#f8f8f8 ;
+	padding-top: 50px;
+}
+#footer .weibo img{
+	/*max-width: 527px;*/
+}

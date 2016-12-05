@@ -1,0 +1,73 @@
+/*顶栏样式*/
+/*.container>.navbar-right>li>a{
+	color: #FFFFFF;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container>.navbar-right>li>a:hover{
+	color: #2e8ece;
+	text-decoration:underline;
+	cursor: pointer;
+}
+.container>.navbar-right>li a.el-current-user{
+	color: #00a7ff;
+}
+.container>.navbar-right>li .el-current-user:hover{
+	color: #00a7ff;
+	cursor: default;
+	text-decoration: none;
+}
+已经放入到了公共css中引入*/
+
+/*第二栏样式*/
+/*.navbar-brand >i,.navbar-brand>span{
+	font-size: 26px;
+	color: #FFFFFF;
+}
+#navtitle{
+	margin-bottom: 10px;
+}
+nav ul.navbar-nav li{
+	height:80px;
+	min-width: 102px;
+	text-align: center;
+}
+nav ul.navbar-nav li:hover{
+	background:rgba(0,0,0,0.03);
+	cursor: pointer;
+}
+nav ul.navbar-nav a{
+	font-size: 16px;
+	line-height: 50px;
+}
+ 已经放入到了公共css中引入*/
+
+/*投资列表*/
+.myform{
+	margin: 20px 0;
+}
+.container .btn-group{
+	margin-left: 30px;
+}
+.container .btn-group >button{
+	display: block;
+	font-size: 14px;
+	padding: 6px 26px;
+}
+.showbgcolor{
+    background-color: #e6e6e6;
+}/*当前按钮 的背景色*/
+
+
+/*part4 还款列表*/
+.panel{
+	margin-bottom: 60px;
+}
+.el-table >thead{
+	font-size: 16px;
+	font-weight: bolder;
+    color: #999999;
+}
+.el-table >tbody{
+	font-size: 16px;
+}
