@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>借款项目</title>
+		<link rel="stylesheet" type="text/css" href="../js/bootstrap-3.3.2-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/commonTop.css" />
+		<link rel="stylesheet" type="text/css" href="../css/realAuthor.css" />
+		<script src="../js/jquery/jquery-2.1.3.js"></script>
+		<script src="../js/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<!--头部，顶栏-->
+		<div class="el-header navbar-inverse">
+			<!--包含内容的大容器，居中显示效果-->
+			<div class="container">
+					 <!--导航栏分类-->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">首页</a></li>
+					
+					<li><a class="el-current-user">用户a</a></li>
+					<li><a href="###">赶紧充值</a></li>
+					<li><a href="###">注销</a></li>
+					<li><a href="###">帮助</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--第二行导航栏-->
+		<nav id="navtitle" class="navbar navbar-default el-navbar">
+  			<div class="container">
+				<div class="navbar-header"> <!--此处添加后，在缩小时会使其内容单独成立一行-->
+					<a class="navbar-brand" href="index.html">
+				        <img id="logo" alt="Brand" src="../imgs/logo.png">
+				    </a>
+				</div>
+				<ul class="nav navbar-nav">
+			        <li><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+			        <li><a href="invest.html">我要投资</a></li>
+			        <li><a href="borrow.html">我要借款</a></li>
+			        <li class="active"><a href="personal.html">个人中心</a></li>
+			        <li><a href="#">新手指引</a></li>
+			    </ul>
+			</div>
+		</nav>
+
+		
+
+		<!--主体部分开始-->
+		<div class="container" id='main'>
+			<div class='row'>
+					<!--左侧选显卡-->
+				<div class="col-sm-3">
+					<ul class="list-group">
+						<li id="bgcolordark" class="list-group-item"><a href="#">投资项目</a></li>
+						<li id="bgcolordark" class="list-group-item"><a href="#">借款项目</a></li>
+						<li id="childul" class="list-group-item">
+							<ul class="list-group">
+								<li><a href="borrowList.html" class="list-group-item ">&emsp;&emsp;借款项目</a></li>
+								<li><a href="##" class="list-group-item ">&emsp;&emsp;还款明细</a></li>
+							</ul>
+						</li>
+						<li id="bgcolordark" class="list-group-item"><a href="#">我的账户</a></li>
+						<li id="childul" class="list-group-item">
+							<ul class="list-group">
+							  	<li><a href="#" class="list-group-item">&emsp;&emsp;账户信息</a></li>
+							 	<li><a href="#" class="list-group-item  active">&emsp;&emsp;实名认证</a></li>
+							  	<li><a href="#" class="list-group-item">&emsp;&emsp;银行卡管理</a></li>
+								<li><a href="#" class="list-group-item">&emsp;&emsp;登录记录</a></li>
+							</ul>
+						</li>
+						
+						<li id="bgcolordark" class="list-group-item"><a href="#">资产详情</a></li>
+						<li id="childul" class="list-group-item">
+							<ul class="list-group">
+							  	<li><a href="#" class="list-group-item">&emsp;&emsp;账户流水</a></li>
+							 	<li><a href="#" class="list-group-item">&emsp;&emsp;充值明细</a></li>
+							  	<li><a href="#" class="list-group-item">&emsp;&emsp;体现纪录</a></li>
+								<li><a href="#" class="list-group-item">&emsp;&emsp;首款明细</a></li>
+							</ul>
+						</li>
+						<li id="bgcolordark" class="list-group-item"><a href="#">个人资料</a></li>
+					</ul>
+				</div>
+				<!--右边部分开始-->
+				<div class='col-md-9' id='right'>
+
+					<div class="panel panel-default">
+						<div class="panel-heading head_title">
+							<span class="panel-title">实名认证</span>
+							<button type="button" class="btn btn-danger pull-right" style='margin-top:-5px;'>添加</button>
+						</div>
+
+						<div class="panel-body " id='info'>
+							<table class="table table-bordered">
+								<thead>
+									<th>id</th>
+									<th>姓名</th>
+									<th>身份证</th>
+									<th>电话号码</th>
+									<th>城市</th>
+									<th>状态</th>
+									<th>操作</th>
+								</thead>
+
+								<tr class='active'>
+									<td>11</td>
+									<td>哈哈</td>
+									<td>51223463453435</td>
+									<td>1387865565</td>
+									<td>成都</td>
+									<td>审核中</td>
+									<td>
+										<button class='btn btn-success'>修改</button>
+										<button class='btn btn-danger'>删除</button>
+									</td>
+								</tr>
+							</table>
+
+						</div>
+					</div>
+				</div>
+
+				<!--右边部分结束-->
+
+			</div>
+		</div>
+		<!--主体部分结束-->
+
+		<!--结尾部分-->
+		<div id="footer">
+		    <div class="container">
+		        <div class="col-sm-8">
+		            <p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+		            <p>版权所有：&emsp;2006-2015成都源代码教育咨询有限公司</p>
+		            <p>地&emsp;&emsp;址：&emsp;成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+		            <p>电&emsp;&emsp;话：&emsp;028-86261949&nbsp; / 400-808-6840&emsp;
+		                邮箱：&emsp;yuandaima@itsource.cn</p>
+		            <p>
+		                <a href="http://www.miitbeian.gov.cn">蜀ICP备14030149号-1</a>&emsp;&emsp;<a href="http://www.gaj.chengdu.gov.cn">蜀公网安备510114990541</a>
+		            </p>
+		            <div style="display: inline-block; overflow: hidden; float: left;"></div>
+		        </div>
+		        <div class="col-sm-2">
+		            <div>
+		                <p style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微博：</p>
+		                <a href="http://t.qq.com/it-source" target="_blank"> <img width="160px" src="../imgs/tecent.png" alt="Responsive image">
+		                </a> 
+		                <a href="http://weibo.com/cditcast" target="_blank"> <img width="160px" src="../imgs/sina.png" alt="Responsive image">
+		         	   </a>
+		            </div>
+		        </div>
+		        <div class="col-sm-2">
+		            <div>
+		                <p style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微信：</p>
+		                <img src="../imgs/wx.jpg" alt="Responsive image" class="img-responsive">
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<script src="mock-min.js"></script>
+		<script>
+			$.ajax({
+				type: "get",
+				url: "http://localhost:3000/mockapi",
+				async: false,
+				dataType: 'jsonp',
+				success: function(data) {
+//					console.log(data);
+					showdata('#table',data);
+				},
+				error: function(err) {
+					console.log(err);
+				}
+			});
+			function showdata(id,data){
+				var $tbody = $(id).find('tbody');
+				var dataArr = data.itemGroup;
+				$.each(dataArr,function(index,item){
+					var $tr = $('<tr></tr>');
+					var $td = $('<td><button class="btn btn-primary"></button><button class="btn btn-danger"></button></td>');
+					$.each(item,function(name,value){
+						var $td = $('<td>'+value+'</td>');
+						$tr.append($td);
+					});
+					$tr.append($td);
+					$tbody.append($tr);
+				});
+			}
+		</script>
+	</body>
+
+</html>
